@@ -1,0 +1,56 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    border: 1px solid black; 
+ 
+    color: #fff;
+    text-transform: uppercase;
+    width: auto;
+    height: 40px;
+
+
+}
+
+
+ul {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+   
+  
+}
+ul li {
+  
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+ul li a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 80%;
+    text-transform: uppercase;
+    display: inline-block;
+}
+ul li button{
+    margin-left: auto ;
+    margin-right:auto ;
+    border-radius: 10px;
+    width: 100%;
+}
+ul li button:hover{
+    background-color: #fff;
+    transition: .3s ease-in-out;
+}
